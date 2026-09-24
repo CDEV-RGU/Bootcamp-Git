@@ -52,6 +52,9 @@ while(Phase > 5 || End == 1){
     Phase = Phase + 1
     let Out = Response.join(" ");
     console.log("-------------------------")
+    console.log("Bullet Chamber:")
     console.log(Out);
     console.log("\n==============================")
 }
+console.log("Gamble with your friends next time!!!")
+console.log("     .------.\n   .'          '.\n  /   O      O   \ \n :           `    :\n |                |\n :    .------.    :\n  \  '        '  /\n   '.          .'\njgs  '-.. ....-'\n");

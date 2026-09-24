@@ -4,13 +4,17 @@ let roll = Math.floor(Math.random() * 6);
 let Phase = 1
 let End = 1
 
+function print(a){
+    console.log(a);
+}
+
 while(Phase > 5 || End == 1){
     let ANS = prompt.question("Will you continue?: ")
     if(ANS === "no" || ANS === "n" || ANS === "nah"){
         End = 0;
         break;
     }
-    console.log("Reloading! \n. \n..\n...");
+    setTimeout(print, 5000);
     roll = Math.floor(Math.random() * 6);
     switch(roll){
         default:

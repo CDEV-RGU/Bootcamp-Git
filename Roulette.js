@@ -12,6 +12,7 @@ function ender(a){
     }      
 }
 
+console.log("\n==============================")
 while(Phase > 5 || End == 1){
     let ANS = prompt.question("Will you continue?: ")
     if(ANS === "no" || ANS === "n" || ANS === "nah"){
@@ -50,5 +51,7 @@ while(Phase > 5 || End == 1){
     }
     Phase = Phase + 1
     let Out = Response.join(" ");
+    console.log("-------------------------")
     console.log(Out);
+    console.log("\n==============================")
 }
